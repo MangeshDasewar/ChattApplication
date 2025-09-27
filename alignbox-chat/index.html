@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat application</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="chat-container">
+       
+        <header class="chat-header">
+            <button class="back-btn">
+                <i class="fas fa-arrow-left"></i>
+            </button>
+            <div class="group-info">
+                <img src="/placeholder.svg?height=40&width=40" alt="Group Avatar" class="group-avatar">
+                <h1 class="group-name">Fun Friday Group</h1>
+            </div>
+            <button class="menu-btn">
+                <i class="fas fa-ellipsis-v"></i>
+            </button>
+        </header>
+
+    
+        
+
+        
+        <div class="messages-container" id="messagesContainer">
+           
+        </div>
+
+     
+        <div class="anonymous-notification" id="anonymousNotification" style="display: none;">
+            <i class="fas fa-user-secret"></i>
+            <span>Now you're appearing as Anonymous!</span>
+            <i class="fas fa-user-secret"></i>
+        </div>
+
+       
+        <div class="message-input-container">
+            <div class="input-wrapper">
+                <input type="text" id="messageInput" placeholder="Type a message ..." class="message-input">
+                <button class="attachment-btn">
+                    <i class="fas fa-camera"></i>
+                </button>
+                <button class="attachment-btn">
+                    <i class="fas fa-paperclip"></i>
+                </button>
+            </div>
+            <button class="send-btn" id="sendBtn">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+
+      
+        <div class="anonymous-toggle" id="anonymousToggle" style="display: none;">
+            <label class="toggle-switch">
+                <input type="checkbox" id="anonymousMode">
+                <span class="slider"></span>
+            </label>
+            <span>Anonymous Mode</span>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
