@@ -37,7 +37,7 @@ cd ChattApplication
 
 👤 **Author**  
 Mangesh Dasewar  
-[GitHub](https://github.com/MangeshDasewar) | [LinkedIn](https://www.linkedin.com/in/mangesh-dasewar/)
+[GitHub](https://github.com/MangeshDasewar) | [LinkedIn](https://www.linkedin.com/in/mangesh-dasewar)
 
 
 
